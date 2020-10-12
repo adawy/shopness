@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SHOPNESS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/en.css"> -->
+</head>
+
+<body>
+    <div id="preloader_6">
+        <div class="preloader-contant">
+        </div>
+    </div>
+    <!-- top-header -->
+    <div class="top-header bg-yellow">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 col-6">
+                    <ul class="d-flex align-items-center justify-content-start ">
+                        <li>
+                            <a href="">
+                                <i class="fas fa-store"></i>
+                                <span> كن متجر</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fas fa-truck"></i>
+                                <span> كن مندوب توصيل</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-6">
+                    <ul class="d-flex align-items-center justify-content-end">
+                        <li>
+                            <div class="dropdown show">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="img/flag2.jpg" alt="الدمام">
+                                    <span>
+                                        تسوق في <b>الدمام</b>
+                                    </span>
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">
+                                        <i class="far fa-circle"></i>
+                                        <img src="img/flag2.jpg" alt="الدمام">
+                                        <span>
+                                            الرياض
+                                        </span>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="fas fa-check-circle"></i>
+                                        <img src="img/eg.png" alt="الدمام">
+                                        <span>
+                                            القاهرة
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>ع</span>
+                                <i class="fas fa-globe"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end top-header -->
+    <!-- center-header -->
+    <div class="center-header bg-blue">
+        <div class="container">
+            <ul class="top-nav">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="my-order.html">طلباتي</a></li>
+                <li><a href="my-offers.html">العروض</a></li>
+                <li><a href="my-fav.html">المفضلة</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sticky-p center-header bg-blue">
+        <div class="container">
+            <div class="d-flex logo-div">
+                <ul>
+                    <li>
+                        <i class="fas fa-bars side-nav-open"></i>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="open-search ">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <div class="over-search"></div>
+                    </li>
+                </ul>
+                <form action="">
+                    <input type="text" placeholder="بحث" class="form-control">
+                    <button class="btn bg-yellow ">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <ul class="cart-drop">
+                    <li>
+                        <div class="dropdown show account-drop">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>محمود</span>
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <div class="sgin-in">
+                                    <a class="dropdown-item" href="account.html">
+                                        حسابي
+                                    </a>
+                                </div>
+                                <div class="sgin-up">
+                                    <a class="dropdown-item text-danger" href="index.html">
+                                        تسجيل خروج
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown show noti-drop">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="far fa-bell"></i>
+                                <sup>5</sup>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <div class="noti-item d-flex">
+                                    <div class="icon">
+                                        <i class="fas fa-bell"></i>
+                                        <sup></sup>
+                                    </div>
+                                    <div class="noti-txt">
+                                        <div class="name">
+                                            <span>اسم العميل</span>
+                                            <span>10:00 am</span>
+                                        </div>
+                                        <p>
+                                            نص قابل للتعديل نص قابل للتعديل
+                                            نص قابل للتعديل نص قابل للتعديل
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="noti-item d-flex">
+                                    <div class="icon">
+                                        <i class="fas fa-bell"></i>
+                                        <sup></sup>
+                                    </div>
+                                    <div class="noti-txt">
+                                        <div class="name">
+                                            <span>اسم العميل</span>
+                                            <span>10:00 am</span>
+                                        </div>
+                                        <p>
+                                            نص قابل للتعديل نص قابل للتعديل
+                                            نص قابل للتعديل نص قابل للتعديل
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="noti.html" class="more">
+                                    المزيد
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="noti-drop">
+                            <a class="dropdown-toggle" href="cart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                <sup>5</sup>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- nav -->
+    <div class="nav-header bg-dark">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="all-cats.html">
+                            كل الاقسام
+                        </a>
+                    </li>
+                    <li>
+                        <a href="all.html">
+                            الملابس
+                        </a>
+                    </li>
+                    <li>
+                        <a href="all.html">
+                            الالكترونات
+                        </a>
+                    </li>
+                    <li>
+                        <a href="all.html">
+                            اخذية
+                        </a>
+                    </li>
+                    <li>
+                        <a href="all.html">
+                            أسم القسم
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- end nav -->
+    <!-- end center-header -->
+    <div class="content">
+        <div class="page-content">
+            <div class="over-side"></div>
+            <div class="noti-header">
+                <div class="container">
+                    <h5>
+                        شراء
+                    </h5>
+                </div>
+            </div>
+            <div class="tab-line">
+                <p class="active">
+                    <span class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        العنوان
+                    </span>
+                </p>
+                <p>
+                    <span class="icon">
+                        <i class="far fa-handshake"></i>
+                    </span>
+                    <span class="txt-dark">
+                        الدفع
+                    </span>
+                </p>
+                <p>
+                    <span class="icon">
+                        <i class="fas fa-check"></i>
+                    </span>
+                    <span class="txt-dark">
+                        تأكيد
+                    </span>
+                </p>
+            </div>
+            <div class="form-div address-btn">
+                <div class="container">
+                    <form action="checkout-pay.html">
+                        <div class="add-btn">
+                            <a href="#" class="open-map btn bg-blue">
+                                <i class="fas fa-plus"></i>
+                                اضافة عنوان
+                            </a>
+                        </div>
+                        <div class="form-items">
+                            <div class="form-item">
+                                <label class="checkcontainer">
+                                    <input type="radio" name="radio">
+                                    <span class="radiobtn"></span>
+                                    أسم العنوان
+                                </label>
+                                <p>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>
+                                        مبني رقم 2 -شارع محمد عبد العزيز- الرياض -السعودية
+                                    </span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-phone"></i>
+                                    <span>
+                                        123456789
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="form-item">
+                                <label class="checkcontainer">
+                                    <input type="radio" checked name="radio">
+                                    <span class="radiobtn"></span>
+                                    أسم العنوان
+                                </label>
+                                <p>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>
+                                        مبني رقم 2 -شارع محمد عبد العزيز- الرياض -السعودية
+                                    </span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-phone"></i>
+                                    <span>
+                                        123456789
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="form-item">
+                                <label class="checkcontainer">
+                                    <input type="radio" name="radio">
+                                    <span class="radiobtn"></span>
+                                    أسم العنوان
+                                </label>
+                                <p>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>
+                                        مبني رقم 2 -شارع محمد عبد العزيز- الرياض -السعودية
+                                    </span>
+                                </p>
+                                <p>
+                                    <i class="fas fa-phone"></i>
+                                    <span>
+                                        123456789
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <button class="btn bg-blue next-btn">
+                            التالى
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!-- top-footer -->
+            <section class="top-footer bg-yellow">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-12">
+                            <div class="contact-item">
+                                <h5>نحن هنا دائما لمساعدتك</h5>
+                                <span>تواصل معنا عبر:</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-12">
+                            <div class="contact-item">
+                                <a href="mailto:help.shopeness.com">
+                                    <div class="icon">
+                                        <i class="fas fa-info"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span>مركز المساعدة</span>
+                                        <span>help.shopeness.com</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-12">
+                            <div class="contact-item">
+                                <a href="mailto:help.shopeness.com">
+                                    <div class="icon">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span>مركز الدعم</span>
+                                        <span>egypt@shopeness.com</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-12">
+                            <div class="contact-item">
+                                <a href="tel:123456789">
+                                    <div class="icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-info">
+                                        <span>الدعم ع التلفون</span>
+                                        <span>123456789</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end top-footer -->
+  <!-- footer -->
+            <footer class="bg-blue">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-3 col-12">
+                            <ul class="footer-links">
+                                <li><a href="index.html">الرئيسية</a></li>
+                                <li><a href="bill.html">الفواتير</a></li>
+                                <li><a href="my-order.html">طلباتي</a></li>
+                                <li><a href="condations.html">الشروط والأحكام</a></li>
+                                <li><a href="my-fav.html">المفضلة</a></li>
+                                <li class="hidden-md"><a href="policy.html">سياسة الخصوصية</a></li>
+                                <li class="hidden-md"><a href="my-offers.html">العروض</a></li>
+                                <li class="hidden-md"><a href="fqa.html">الأسئلة الشائعة</a></li>
+                                <li class="hidden-md"><a href="follow-market.html">المتاجر المتابعه</a></li>
+                                <li class="hidden-md"><a href="#">تواصل معنا</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="footer-item">
+                                <img src="img/logo.png" alt="">
+                                <p>استمتع بتجربة جديدة مع شوبنيس</p>
+                                <ul class="option">
+                                    <li>
+                                        <i class="fas fa-truck"></i>
+                                        شحن سريع
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-handshake"></i>
+                                        دفع آمن
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-headset"></i>
+                                        دعم 24 ساعة
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 show-md">
+                            <ul class="footer-links ">
+                                <li><a href="policy.html">سياسة الخصوصية</a></li>
+                                <li><a href="my-offers.html">العروض</a></li>
+                                <li><a href="fqa.html">الأسئلة الشائعة</a></li>
+                                <li><a href="follow-market.html">المتاجر المتابعه</a></li>
+                                <li><a href="#">تواصل معنا</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="footer-item cust-item-footer">
+                                <h5>تحميل تطبيق الموبايل </h5>
+                                <ul class="apps">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-google-play"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-app-store"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h5>تابعنا</h5>
+                                <ul class="socail">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end footer -->
+            <!-- fixed-footer -->
+             <div class="fixed-footer">
+                <ul>
+                    <li>
+                        <a href="index.html" class="active">
+                            <i class="fa fa-home"></i>
+                            <span>الرئيسية</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="my-order.html" class="">
+                            <i class="fa fa-list"></i>
+                            <span>طلباتي </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="my-offers.html">
+                            <i class="fas fa-tags"></i>
+                            <span>العروض </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span> العربة</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="noti.html">
+                            <i class="fas fa-bell"></i>
+                            <span>اشعارات</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mob-search">
+                <form action="">
+                    <input type="text" placeholder="بحث" class="form-control">
+                    <button class="btn bg-yellow ">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <!-- end fixed-footer -->
+            <!-- end fixed-footer -->
+            <!-- map -->
+            <div class="map-div">
+                <form action="add-adress.html">
+                    <i class="fas fa-times-circle close-map"></i>
+                    <input class="form-control" id="pac-input" name="pac-input" value="" placeholder="ادخل مكانك" />
+                    <input type="hidden" name="lat" id="lat" value="14.4855648" readonly />
+                    <input type="hidden" name="lng" id="lng" value="12.4855648" readonly />
+                    <div id="add_map"></div>
+                    <button class="btn bg-blue">
+                        حفظ
+                    </button>
+                </form>
+            </div>
+            <!-- end map -->
+            <div class="side-nav bg-blue">
+                <ul>
+                    <li>
+                        <a href="#">
+                            الرئيسية
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            حسابي
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            الفواتير
+                        </a>
+                    </li>
+                    <li>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card bg-blue">
+                                <div class="card-header" id="headingOne">
+                                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        <span>الأقسام</span>
+                                        <i class="fas fa-angle-down"></i>
+                                    </button>
+                                </div>
+
+                                <div id="collapseOne" class="collapse " aria-labelledby="headingOne"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body bg-dark">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    الملابس
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    الملابس
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    الملابس
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    الملابس
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            المفضلة
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            المتاجر المتابعة
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            المحادثات
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            الدعم
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/zoom.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function initialize() {
+            var myLatlng = new google.maps.LatLng(24.7135517, 46.67529569999999);
+
+            var myOptions = {
+                zoom: 7,
+                center: myLatlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+            };
+
+            var map = new google.maps.Map(
+                document.getElementById("add_map"),
+                myOptions
+            );
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                draggable: true,
+            });
+
+            var searchBox = new google.maps.places.SearchBox(
+                document.getElementById("pac-input")
+            );
+            google.maps.event.addListener(searchBox, "places_changed", function () {
+                var places = searchBox.getPlaces();
+                var bounds = new google.maps.LatLngBounds();
+                var i, place;
+                for (i = 0;
+                    (place = places[i]); i++) {
+                    bounds.extend(place.geometry.location);
+                    marker.setPosition(place.geometry.location);
+                }
+                map.fitBounds(bounds);
+                map.setZoom(12);
+            });
+
+            google.maps.event.addListener(marker, "position_changed", function () {
+                var lat = marker.getPosition().lat();
+                var lng = marker.getPosition().lng();
+                $("#lat").val(lat);
+                $("#lng").val(lng);
+            });
+        }
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNm7VC4eQsCZcny5cVteIkg_SMJpc2G7Y&libraries=places&callback=initialize&lang=ar"
+        async defer></script>
+</body>
+
+</html>

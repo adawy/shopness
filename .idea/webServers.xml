@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="15ccc85a-3fd1-4692-a573-e2d958602e5b" name="qsoogcom" url="http://qsoog.com">
+        <fileTransfer host="qsoog.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1c7f78f6-9e2b-45e3-a8b8-cce984ddc0ef" name="cmarketers.com" url="http://78.46.178.246">
+        <fileTransfer host="78.46.178.246" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d0a41e62-bee9-43ed-b22b-79001484a3a1" name="shaaaer" url="http://shaaaer.com/">
+        <fileTransfer host="shaaaer.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5b7b06e1-6bc3-47ed-b563-9a8777393f96" name="wigha" url="http://wigha.aait-sa.com">
+        <fileTransfer host="wigha.aait-sa.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="04a81569-ce6b-4e03-b3d5-264c2e34aebb" name="wafrnalak" url="http://cp.wafrnalak.com">
+        <fileTransfer host="cp.wafrnalak.com" port="21" rootFolder="/cp.wafrnalak.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2180ddfd-48ca-4bee-bea1-c423dc32ae47" name="asiaspa" url="http://asiaspa.aait-sa.com/">
+        <fileTransfer host="asiaspa.aait-sa.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2e5b62b2-6151-465a-9c9a-739511c70d5f" name="happholiday" url="http://happholiday.com/">
+        <fileTransfer host="cp.happholiday.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="16d6d90f-5d13-45a7-930e-cc513f0c6b1c" name="shipping" url="http://116.202.111.11">
+        <fileTransfer host="116.202.111.11" port="22" rootFolder="/var/www/html/plaigo" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5230c7b2-7a7c-43c7-85cd-a3aa76ac95f5" name="aait" url="http://78.46.178.246">
+        <fileTransfer host="78.46.178.246" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0b333a17-8f74-4f72-800e-6cbdb0479e0d" name="kniiz" url="http://kniiz.aait-sa.com">
+        <fileTransfer host="kniiz.aait-sa.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8f2754cc-3a13-422c-8d38-8532ca2ece97" name="cat" url="http://cutecat.sa">
+        <fileTransfer host="cutecat.sa" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1606f5b3-641e-468c-a4f4-26e9491cee07" name="shaqra" url="http://shaqra.aait-sa.com">
+        <fileTransfer host="shaqra.aait-sa.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="62a625c4-bbcd-49e3-9419-38d3b5a8da28" name="coder" url="http://5.9.40.45">
+        <fileTransfer host="5.9.40.45" port="21" rootFolder="/public_html/El_Adawy/shopness">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e9a37796-34bc-4f14-ba21-634263c19cfb" name="hindams" url="http://hindams.com">
+        <fileTransfer host="hindams.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9de9dbe1-14f9-416f-8b38-a0c73a99bb48" name="Dr" url="http://138.201.247.255">
+        <fileTransfer host="138.201.247.255" port="22" rootFolder="/var/www/html/dentist" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

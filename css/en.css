@@ -1,0 +1,286 @@
+body {
+    text-align: left;
+    direction: ltr;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.user-content .user-detail,
+.visa-form .form-group label {
+    left: 20px;
+    right: unset;
+}
+
+.account-tabs .details-block .d-txt .pay i{
+    margin: 0 5px 5px 0;
+}
+
+img.user-bg {
+    left: unset;
+    right: 0;
+}
+
+.visa-form .form-group i,
+.pro-info .add-cart {
+    left: unset;
+    right: 10px;
+}
+
+.logo-search .form-group button {
+    left: unset;
+    right: 15px;
+}
+
+.logo-search .login-cart li:nth-of-type(3)::after {
+    left: 0;
+    right: unset;
+}
+
+.top-header .lang li:not(:last-of-type)::after,
+.top-header .head-offer li:not(:last-of-type)::after {
+    right: 0;
+    left: unset;
+}
+
+.top-header .lang li:last-of-type {
+    padding-right: unset;
+    padding-left: 10px;
+}
+
+.mobile-links ul li a i {
+    transform: rotate(180deg);
+}
+
+.pro-info {
+    text-align: left;
+}
+
+.promo-code-form button {
+    right: 24px;
+    left: unset;
+}
+
+.promo-code-form input {
+    padding-right: unset;
+    padding-left: 24px;
+}
+.category-menu li div{
+    padding: 12px 20px 5px 0;
+}
+.cat-head .dropdown{
+    margin-right: unset;
+    margin-left: 10px;
+}
+.i-change .dropdown-item{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.fav-page .product-item .fa-times{
+    left: unset;
+    right: 10px;
+}
+.fw-color-choose .cs-item:first-child{
+    margin-right: 14px;
+}
+.seller-info li i,
+.shipp-info li i{
+    margin-left: unset;
+    margin-right: 5px;
+}
+.slider .swiper-button-prev, .pro-silder .swiper-button-prev, .prod-slider .swiper-button-prev{
+    right: 0;
+    left: unset;
+}
+.pro-look ul{
+    padding-right: unset;
+    padding-left: 20px;
+}
+.top-header ul li:not(:last-of-type){
+    margin-right: 15px;
+    margin-left: unset;
+}
+.top-header ul li:not(:last-of-type)::after{
+    left: unset;
+    right: -5px;
+}
+.center-header .dropdown .dropdown-menu{
+    right: 0;
+    left: unset!important;
+}
+.logo-div ul.cart-drop li::after{
+    right: unset;
+    left: -22px;
+}
+.logo-div ul.cart-drop{
+    padding-left: 25px;
+    padding-right: unset;
+}
+.top-footer .contact-item .icon{
+    margin-left:unset;
+    margin-right: 10px;
+}
+.pro-slider .title h5{
+    padding-left: 10px;
+    padding-right: unset;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    left: unset;
+}
+.bill-info ul li:nth-child(odd){
+    margin-left: unset;
+    margin-right: 5px;
+}
+.bill-info ul li{
+    display: flex;
+}
+.bill-info ul li span:nth-child(2),
+.cart-item .price .price-show span:nth-child(2){
+    margin: 0 5px;
+}
+.pro-slider .title{
+    border-right: unset;
+    border-left: 3px solid #FCCD4B;;
+}
+.nav-header nav ul li:not(:last-of-type) a::after{
+    right: 0;
+    left: unset;
+}
+.cart-div .cart-item img{
+    margin-left: unset;
+    margin-right: 10px;
+}
+.del-cartitem{
+    left: unset;
+    right: 10px;
+}
+.cart-item .price .price-show{
+    display: flex;
+}
+.cart-div .cart-item .d-txt .name .rate{
+    margin-left: 20px;
+    margin-right: unset;
+}
+.noti-header h5 ,
+.info-1 li{
+display: flex;
+}
+.info-1 li span:nth-child(2){
+    margin: 0 5px;
+}
+.chat-section .list .top-c{
+    right: unset;
+    left: 0;
+}
+.chat-section .speek-section .top-c,
+.chat-section .speek-section .go-text{
+    left: unset;
+    right: 0;
+}
+.chat-section .list .pe .person .image-c{
+    margin-left: unset;
+    margin-right: 10px;
+}
+
+.pro-congirm p{
+    padding-left: 15px;
+    padding-right: unset;
+    display: flex;
+}
+.pro-congirm p span:nth-child(2){
+    margin: 0 5px;
+}
+.header-pro .share-love{
+    right: 0;
+    left: unset;
+}
+.condation-item p{
+    text-align: left;
+}
+.notis-div .noti-item .del-noti{
+    right: 10px;
+    left: unset;
+}
+.noti-header span{
+    margin-right: 10px;
+    margin-left: unset;
+}
+.notis-div.noti-drop .noti-txt p{
+    text-align: left;
+    padding-right: 50px;
+    padding-left: unset;
+}
+.noti-drop .noti-txt{
+    margin-left: 10px;
+    margin-right: unset;
+}
+.order-block ul li{
+    display: flex;
+}
+.order-block ul li span:nth-child(2){
+    margin: 0 10px;
+}
+.chat-section .list .pe .person .more{
+    margin-right: unset;
+    margin-left: auto;
+}
+.chat-section .speek-section .go-text .input-group-text{
+    border-radius: 0 20px 20px 0;
+}
+.chat-section .speek-section .top-c .more, .chat-section .speek-section .top-c .image-c{
+    margin-left: unset;
+    margin-right: 9px;
+}
+.form-items .form-item .pay-img{
+    left: unset;
+    right: 0;
+}
+.market-nameimg img{
+    margin-left: unset;
+    margin-right: 10px;
+}
+.cat-links .fitler-item .header::before{
+    left: 0;
+    right: unset;
+}
+.market-rate{
+    padding-right: unset;
+    padding-left: 20px;
+    border-left: 1px solid #dadada;
+    border-right: unset;
+}
+.fqa .accordion .card-header:after{
+    float: right;
+}
+.form-items .checkcontainer .radiobtn{
+    right: unset;
+    left: 0;
+}
+.form-items .checkcontainer{
+    padding-left: 35px;
+    padding-right: unset;
+}
+.form-items .form-item p{
+    padding-left: 35px;
+    padding-right: unset;
+}
+.log-page .log-form form .form-group i{
+    left: unset;
+    right: 10px;
+}
+.tab-line p:not(:last-of-type)::after{
+    right:  unset;
+    left: 50%;
+}
+.edit-link{
+    right: 0;
+    left: unset;
+}
+@media (max-width: 767px){
+    .cart-div .cart-item img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
